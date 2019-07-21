@@ -1,0 +1,19 @@
+{
+  "name": "formregister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:back": "cd backend && npm start",
+    "start:front": "cd frontend && npm start",
+    "start": "concurrently \"npm run start:back\" \"npm run start:front\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "validator": "^11.0.0"
+  }
+}

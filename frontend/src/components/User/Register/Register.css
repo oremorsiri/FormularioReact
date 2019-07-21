@@ -1,0 +1,66 @@
+.registerDiv{
+    box-sizing: content-box;
+    height: 100vh;
+}
+
+.registertitle {
+    text-align: center;    
+    font-family: 'BioRhyme', serif;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(38,40,35,1) 100%);
+    color: #FFF6E5;
+    margin: 0;
+    padding: 3%;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    font-family: 'Cabin', sans-serif;
+    background-image: url("https://images.pexels.com/photos/1005714/pexels-photo-1005714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+
+}
+
+.register input {
+    all: unset;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 0.1em solid #A71253;
+    margin: 1em;
+    width: 50vw;
+    background-color: #FFF6E5;
+}
+
+.register button {    
+    margin: 1em;
+    font-family: 'Cabin', sans-serif;
+    background-color: #A71253; 
+    border: none;
+    border-radius: 0.5em;
+    color: #FFF6E5;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    transition-duration: 0.4s
+  
+}
+
+.register button:hover {
+    background-color: #262823;
+}
+
+.ErrorInputsDiv{
+    position: relative;
+}
+
+.register .errormsg {
+    position: absolute;
+    color: yellow;
+    text-shadow: 1px 1px 3px red;
+    margin: -0.8em;
+    margin-left: 5%;
+}
